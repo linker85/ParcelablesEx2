@@ -28,4 +28,22 @@
         android:id="@+id/openActivity"
         android:onClick="openActivity"
         android:text="openActivity"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/implicitIntent"
+        android:onClick="implicitIntent"
+        android:text="implicitIntent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explicitIntent"
+        android:onClick="explicitIntent"
+        android:text="explicitIntent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startActivityForResult"
+        android:onClick="startActivityForResult"
+        android:text="startActivityForResult"/>
 </LinearLayout>
